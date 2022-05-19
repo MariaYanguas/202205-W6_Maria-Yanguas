@@ -1,0 +1,17 @@
+{
+  "name": "202205-w6_maria-yanguas",
+  "version": "1.0.0",
+  "description": "Game of live",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "María Yanguas Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
