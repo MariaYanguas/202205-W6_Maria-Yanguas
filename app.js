@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const matriz = [];
-let allow = true;
+let allow = false;
 
 let livingCells = [];
 let deadCells = [];
@@ -61,16 +61,10 @@ initialState = () => {
 
       if (!matriz[i][j]) {
         if (living === 3) {
-          /* matriz[i][j] = true; */
-          /*  const el = document.querySelector(`#elem${i}-${j}`);
-          el.classList.add("live"); */
           livingCells.push(`${[i]}-${[j]}`);
         }
       } else {
         if (living < 2 || living > 3) {
-          /* matriz[i][j] = false;
-          const el = document.querySelector(`#elem${i}-${j}`);
-          el.classList.remove("live"); */
           deadCells.push(`${[i]}-${[j]}`);
         }
       }
